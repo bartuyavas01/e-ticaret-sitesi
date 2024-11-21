@@ -842,6 +842,11 @@ header,
     font-size: 11px;
 }
 
+.footer-b a {
+    color: var(--body-color);
+    text-decoration: none;
+}
+
 .footer-b .link {
     text-align: right;
 }
@@ -860,6 +865,7 @@ header,
     font-size: 11px;
 }
 
-.footer-b .link ul li a:hover {
+.footer-b .link ul li a:hover,
+.footer-b a:hover {
     color: var(--orange);
 }
